@@ -1,6 +1,6 @@
 {
   "name": "correspond-signaling",
-  "version": "1.0.1-alpha",
+  "version": "1.0.7",
   "description": "A signaling server for the correspond library",
   "main": "index.js",
   "scripts": {

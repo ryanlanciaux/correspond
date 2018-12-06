@@ -1,9 +1,9 @@
 {
   "name": "example-client",
-  "version": "0.1.0",
+  "version": "1.0.7",
   "private": true,
   "dependencies": {
-    "correspond": "^1.0.6-alpha",
+    "correspond": "^1.0.7",
     "cuid": "^2.1.4",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
