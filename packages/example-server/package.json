@@ -1,0 +1,18 @@
+{
+  "name": "example-server",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "correspond-signaling": "^1.0.1-alpha",
+    "cuid": "^2.1.4",
+    "express": "^4.16.3",
+    "ws": "^6.0.0"
+  }
+}
