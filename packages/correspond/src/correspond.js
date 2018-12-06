@@ -2,6 +2,8 @@ import { Component } from "react";
 import cuid from "cuid";
 
 import { error } from "util";
+export { Host } from "./Host";
+export { Client } from "./Client";
 require("webrtc-adapter");
 
 const messagesTypes = {
