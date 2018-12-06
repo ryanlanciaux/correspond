@@ -1,0 +1,14 @@
+{
+  "name": "correspond-signaling",
+  "version": "1.0.0-alpha",
+  "description": "A signaling server for the correspond library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webrtc"
+  ],
+  "author": "Ryan Lanciaux",
+  "license": "MIT"
+}
