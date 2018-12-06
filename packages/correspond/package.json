@@ -1,0 +1,40 @@
+{
+  "name": "correspond",
+  "version": "1.0.3-alpha",
+  "description": "A React library to help with peer-to-peer connections / messaging",
+  "main": "lib/correspond.js",
+  "module": "lib/correspond.es.js",
+  "scripts": {
+    "clean": "rm -rf lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c && cp -r src lib",
+    "prepublish": "yarn clean && yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanlanciaux/correspond.git"
+  },
+  "keywords": [
+    "webrtc",
+    "react"
+  ],
+  "author": "Ryan Lanciaux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanlanciaux/correspond/issues"
+  },
+  "homepage": "https://github.com/ryanlanciaux/correspond#readme",
+  "dependencies": {
+    "cuid": "^2.1.4",
+    "react": "^16.6.3",
+    "webrtc-adapter": "^6.4.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "rollup": "^0.67.4",
+    "rollup-plugin-babel": "^4.0.3"
+  }
+}
