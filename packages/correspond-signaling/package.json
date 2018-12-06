@@ -1,6 +1,6 @@
 {
   "name": "correspond-signaling",
-  "version": "1.0.0-alpha",
+  "version": "1.0.1-alpha",
   "description": "A signaling server for the correspond library",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,9 @@
     "webrtc"
   ],
   "author": "Ryan Lanciaux",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cuid": "^2.1.4",
+    "ws": "^6.1.2"
+  }
 }
