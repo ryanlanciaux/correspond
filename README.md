@@ -26,7 +26,7 @@ startSignalingServer(8088); // run on port 8088
 ### Client
 
 - Add `correspond` to your React project. `yarn add correspond` (or `npm install correspond`)
-- Define a code path for establishing the session as the Host (e.g. something like react/@reach router)
+- Define a code path for establishing the session as the Host (e.g. something like react/@reach router).
 
 ```javascript
   import { Correspondent } from 'correspond'
@@ -46,7 +46,7 @@ startSignalingServer(8088); // run on port 8088
   </Correspondent>
 ```
 
-- Create Host component using the `Host` container component from `correspond`
+- Create Host component using the `Host` container component from `correspond`. This Host depends on the `connectionProps` from the `Correspondent` component above.
 
 ```javascript
 import { Host } from "correspond";
@@ -63,7 +63,7 @@ import { Host } from "correspond";
     }
 ```
 
-- Create a Client component using the `Client` container component from `correspond`
+- Create a Client component using the `Client` container component from `correspond`. This Client depends on the `connectionProps` from the `Correspondent` component above.
 
 ```javascript
 import { Client } from "correspond";
