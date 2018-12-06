@@ -1,7 +1,11 @@
 {
   "name": "correspond-repo",
   "private": true,
+  "scripts": {
+    "start": "node start.js"
+  },
   "devDependencies": {
-    "lerna": "^3.5.1"
+    "lerna": "^3.5.1",
+    "shelljs": "^0.8.3"
   }
 }
